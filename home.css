@@ -1,0 +1,95 @@
+html{background-color:#59331D; 
+height: 100%; 
+box-sizing:border-box;}
+body{position:relative; 
+margin:0; 
+min-height: 100%; 
+padding-bottom: 6.74rem;
+box-sizing:inherit; 
+padding-top: 120px;
+padding-right: 10px;
+padding-left: 10px; 
+text-decoration: none;}
+.coffeebar { display: flex; 
+    flex-direction: rows; 
+    justify-content: space-between; 
+    margin-bottom:0px;
+    position: absolute;
+   right:0; 
+   left:0; 
+   top: 0;  
+   padding-bottom: 0px; 
+   padding-top: 10px; 
+   padding-right:30px;
+   padding-left: 0px;
+  background-color: rgba(217, 133, 85, 1); 
+    border-style: double; 
+    border-color: white; 
+  color: white; 
+  font-family: lato 400 normal; 
+  font-size: 22px; 
+} 
+.small-logo{ width:80px; 
+height: auto;} 
+.grid-container{display: grid; 
+grid-template-columns: 50% 50%;}
+.home{
+  position: absolute; 
+  top: 10%; 
+  left:1%; 
+  color: rgba(217, 133, 85, 0.44); 
+  font-size: 40px;
+}
+.latte{ height: 900px; 
+width: 600px;} 
+h1{font-family: poppins 700 bold;
+color:#D98555;} 
+#quote{ text-align: center; 
+padding-bottom: 100px;}
+ul{display:flex; 
+  flex-direction: column;
+  text-align: center; 
+justify-content: space-evenly; 
+  align-items: center;
+height: 10%; 
+font-family: lato 400 normal;} 
+.day{font-size:25px; 
+color: white;} 
+.order{font-size:20px;
+color: white;}
+.view{width: 150px; 
+height:50px;
+font-size:19px; 
+background-color:rgba(217, 133, 85, .5); } 
+.buttons{ width: 100px; 
+height: 40px;
+border-radius: 50%; 
+background-color:black; 
+color: white;}
+footer{position: absolute;
+  right:0; 
+  left:0; 
+  bottom: 0;  
+  text-align: center;
+  background-color: #D98555; 
+    border-style: double; 
+    border-color: white; 
+   padding: 0px; 
+  color: white; 
+  font-family: lato 400 normal; 
+  font-size: 10px;
+bottom: 0;} 
+.logo{ 
+width:10px; 
+height:10px; 
+margin:5px;} 
+a {text-decoration: none;} 
+@media all and (min-width:600px) and (max-width:800px) { .coffeebar {background-color:rgb(0, 0, 128);
+  border-style: none;}
+  footer{background-color:rgb(0, 0, 128);
+  }} 
+@media all and (min-width: 900px) and (max-width:1500px) { .coffeebar {background-color:rgb(217, 133, 85, 1);
+}
+
+footer{background-color:rgb(217, 133, 85, 1);
+}}
